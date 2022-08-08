@@ -10,6 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -18,7 +19,7 @@ h1 {
 
 .box {
     background-color: steelblue;
-    color: white;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +33,7 @@ h1 {
 }
 
 .box:nth-of-type(even) {
-    transform: translateX(-200%);
+    transform: translateX(-400%);
 }
 
 .box.show {
